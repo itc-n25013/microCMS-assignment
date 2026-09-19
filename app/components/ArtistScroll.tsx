@@ -8,6 +8,10 @@ const GUEST_ARTISTS = [
   { id: "4", name: "Kanye West" },
   { id: "5", name: "Backstreet Boys" },
   { id: "6", name: "Smash Mouth" },
+  { id: "7", name: "XXXTENTACION" },
+  { id: "8", name: "Drake" },
+  { id: "9", name: "lilbubblegum" },
+  { id: "10", name: "Eminem" },
 ];
 
 export default function ArtistScroll() {
