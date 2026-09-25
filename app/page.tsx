@@ -83,7 +83,10 @@ export default async function HomePage({
               Featured Artists
             </h2>
           </div>
+	  {/* Suspenseで囲む */}
+          <Suspense fallback={<div className="h-32 w-full bg-white/5 animate-pulse rounded-2xl" />}>
           <ArtistScroll />
+	  </Suspense>
         </section>
 
         <section>
